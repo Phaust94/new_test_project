@@ -1,2 +1,3 @@
 import my_project
-print("Well. Finish {}".format(my_project.x))
+if my_project.x > 4:
+    print("Well. Finish {}".format(my_project.x))
